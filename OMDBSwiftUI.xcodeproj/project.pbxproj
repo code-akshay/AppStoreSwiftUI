@@ -7,20 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA27DE622CBD19C000574F5F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA27DE612CBD19C000574F5F /* CardView.swift */; };
+		BA70F9352CBFD3EA00B88888 /* HorizontalBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA70F9342CBFD3EA00B88888 /* HorizontalBanner.swift */; };
 		BA93DB202CBA892A00EC7945 /* OMDBSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93DB1F2CBA892A00EC7945 /* OMDBSwiftUIApp.swift */; };
 		BA93DB222CBA892A00EC7945 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93DB212CBA892A00EC7945 /* ContentView.swift */; };
 		BA93DB242CBA892A00EC7945 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93DB232CBA892A00EC7945 /* Item.swift */; };
 		BA93DB262CBA892C00EC7945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA93DB252CBA892C00EC7945 /* Assets.xcassets */; };
 		BA93DB292CBA892C00EC7945 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA93DB282CBA892C00EC7945 /* Preview Assets.xcassets */; };
+		BA93DB302CBA8C5300EC7945 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93DB2F2CBA8C5300EC7945 /* HomeView.swift */; };
+		BA93DB332CBBAB1400EC7945 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93DB322CBBAB1400EC7945 /* NavigationBar.swift */; };
+		BAB58FB42CC2156A00095392 /* AdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB58FB32CC2156A00095392 /* AdView.swift */; };
+		BAB58FB62CC223B500095392 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB58FB52CC223B500095392 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA27DE612CBD19C000574F5F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BA70F9342CBFD3EA00B88888 /* HorizontalBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalBanner.swift; sourceTree = "<group>"; };
 		BA93DB1C2CBA892A00EC7945 /* OMDBSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMDBSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA93DB1F2CBA892A00EC7945 /* OMDBSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDBSwiftUIApp.swift; sourceTree = "<group>"; };
 		BA93DB212CBA892A00EC7945 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA93DB232CBA892A00EC7945 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		BA93DB252CBA892C00EC7945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA93DB282CBA892C00EC7945 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA93DB2F2CBA8C5300EC7945 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BA93DB322CBBAB1400EC7945 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		BAB58FB32CC2156A00095392 /* AdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdView.swift; sourceTree = "<group>"; };
+		BAB58FB52CC223B500095392 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +65,10 @@
 		BA93DB1E2CBA892A00EC7945 /* OMDBSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BAB58FB52CC223B500095392 /* ColorExtension.swift */,
+				BA93DB312CBBAB0000EC7945 /* CustomViews */,
 				BA93DB1F2CBA892A00EC7945 /* OMDBSwiftUIApp.swift */,
+				BA93DB2F2CBA8C5300EC7945 /* HomeView.swift */,
 				BA93DB212CBA892A00EC7945 /* ContentView.swift */,
 				BA93DB232CBA892A00EC7945 /* Item.swift */,
 				BA93DB252CBA892C00EC7945 /* Assets.xcassets */,
@@ -68,6 +83,17 @@
 				BA93DB282CBA892C00EC7945 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA93DB312CBBAB0000EC7945 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				BA27DE612CBD19C000574F5F /* CardView.swift */,
+				BA93DB322CBBAB1400EC7945 /* NavigationBar.swift */,
+				BA70F9342CBFD3EA00B88888 /* HorizontalBanner.swift */,
+				BAB58FB32CC2156A00095392 /* AdView.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +128,7 @@
 				TargetAttributes = {
 					BA93DB1B2CBA892A00EC7945 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
@@ -140,9 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA93DB332CBBAB1400EC7945 /* NavigationBar.swift in Sources */,
+				BA70F9352CBFD3EA00B88888 /* HorizontalBanner.swift in Sources */,
 				BA93DB222CBA892A00EC7945 /* ContentView.swift in Sources */,
+				BA93DB302CBA8C5300EC7945 /* HomeView.swift in Sources */,
 				BA93DB242CBA892A00EC7945 /* Item.swift in Sources */,
+				BA27DE622CBD19C000574F5F /* CardView.swift in Sources */,
 				BA93DB202CBA892A00EC7945 /* OMDBSwiftUIApp.swift in Sources */,
+				BAB58FB62CC223B500095392 /* ColorExtension.swift in Sources */,
+				BAB58FB42CC2156A00095392 /* AdView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OMDBSwiftUI/Preview Content\"";
@@ -283,6 +317,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,7 +325,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.OMDBSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_GLOBAL_CONCURRENCY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,6 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OMDBSwiftUI/Preview Content\"";
@@ -311,6 +354,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,7 +362,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.OMDBSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_UPCOMING_FEATURE_GLOBAL_CONCURRENCY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
